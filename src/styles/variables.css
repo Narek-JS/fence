@@ -1,0 +1,7 @@
+:root {
+  --font-body: var(--font-inter);
+  --background: #ffffff;
+  --foreground: #171717;
+  --header-height: 74px;
+  --primary: #236e37;
+}
