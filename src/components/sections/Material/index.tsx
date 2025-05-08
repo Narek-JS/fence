@@ -51,9 +51,9 @@ const Material: React.FC = () => {
                 <div className="border-2 border-[var(--primary)] p-3 rounded-full">
                   <IconComponent size={32} className="text-[var(--primary)]" />
                 </div>
-                <p className="text-[var(--primary)] font-bold text-[24px]">
+                <h4 className="text-[var(--primary)] font-bold text-[24px]">
                   {TEXT}
-                </p>
+                </h4>
               </div>
             ))}
           </div>
