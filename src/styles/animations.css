@@ -1,0 +1,20 @@
+@keyframes float-fence {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+}
+
+.animate-float-fence {
+  animation: float-fence 4s ease-in-out infinite;
+}
