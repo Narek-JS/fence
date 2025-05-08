@@ -10,6 +10,7 @@ const CONTENT = {
   MATERIAL_TITLE: "Material Options",
   MATERIAL_DESCRIPTION:
     "Choose from a wide variety of durable and stylish fencing materials.",
+
   MATERIAL_SLIDE_1: "Vinyl",
   MATERIAL_SLIDE_2: "Aluminum",
   MATERIAL_SLIDE_3: "Wood",
@@ -19,10 +20,24 @@ const CONTENT = {
 
   // How it works.
   HOW_IT_WORKS_TITLE: "How It Works",
+
   HOW_IT_WORKS_STEP_1: "Schedule a Free On-Site Consultation",
   HOW_IT_WORKS_STEP_2: "Choose Fence Style & Materials",
   HOW_IT_WORKS_STEP_3: "Fabrication for your project",
   HOW_IT_WORKS_STEP_4: "Professional Installation",
+
+  // Requirements.
+  REQUIREMENTS_TITLE: "Requirements for Fence Installation",
+  REQUIREMENTS_DESCRIPTION:
+    "We follow all local regulations and prep requirements to ensure your fence is safe, secure, and built to last.",
+
+  REQUIREMENTS_STEP_1_TITLE: "Material & Style Selection",
+  REQUIREMENTS_STEP_1_DESCRIPTION:
+    "You’ll choose the style and materials (wood, vinyl, chain-link, etc.) that match your property and needs.",
+
+  REQUIREMENTS_STEP_2_TITLE: "Site Preparation",
+  REQUIREMENTS_STEP_2_DESCRIPTION:
+    "Before installation, we make sure the worksite is clear, level, and ready. Old fencing is removed if necessary.",
 };
 
 export { CONTENT };

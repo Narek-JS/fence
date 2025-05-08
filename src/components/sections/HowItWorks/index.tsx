@@ -13,32 +13,30 @@ const HOW_IT_WORKS = [
   { TEXT: CONTENT.HOW_IT_WORKS_STEP_4, ICON: HOW_IT_WORKS_STEP_4_ICON },
 ];
 
-const HowItWorks: React.FC = () => {
-  return (
-    <section className="w-full py-10">
-      <div className="relative container mx-auto flex flex-col gap-[20px]">
-        <h2 className="font-bold text-[42px] text-center">
-          {CONTENT.HOW_IT_WORKS_TITLE}
-        </h2>
+const HowItWorks: React.FC = () => (
+  <section className="w-full py-10">
+    <div className="relative container mx-auto flex flex-col gap-[20px]">
+      <h2 className="font-bold text-[42px] text-center">
+        {CONTENT.HOW_IT_WORKS_TITLE}
+      </h2>
 
-        <div className="w-full flex justify-center gap-5 pt-4">
-          {HOW_IT_WORKS.map(({ TEXT, ICON: IconComponent }, index) => (
-            <div
-              key={index}
-              className="w-full max-w-[300px] flex flex-col items-center gap-2.5 border p-4 rounded-xl"
-            >
-              <div className="border-2 p-3 rounded-full">
-                <IconComponent size={32} />
-              </div>
-              <p className="text-[var(--primary)] text-center font-bold text-[24px]">
-                {TEXT}
-              </p>
+      <div className="w-full flex justify-center gap-5 pt-4">
+        {HOW_IT_WORKS.map(({ TEXT, ICON: IconComponent }, index) => (
+          <div
+            className="w-full max-w-[300px] flex flex-col items-center gap-2.5 border p-4 rounded-xl"
+            key={index}
+          >
+            <div className="border-2 p-3 rounded-full">
+              <IconComponent size={32} />
             </div>
-          ))}
-        </div>
+            <h4 className="text-[var(--primary)] text-center font-bold text-[24px]">
+              {TEXT}
+            </h4>
+          </div>
+        ))}
       </div>
-    </section>
-  );
-};
+    </div>
+  </section>
+);
 
 export { HowItWorks };
