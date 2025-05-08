@@ -2,6 +2,11 @@
 @import "./variables.css";
 @import "./animations.css";
 
+@theme {
+  --font-body: var(--font-inter);
+  --primary: var(--primary);
+}
+
 body {
   font-family: var(--font-body), system-ui, sans-serif;
   letter-spacing: 0.8px;
@@ -16,7 +21,24 @@ body::-webkit-scrollbar {
   color: #ffffff;
 }
 
-@theme {
-  --font-body: var(--font-inter);
-  --primary: var(--primary);
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none;
 }

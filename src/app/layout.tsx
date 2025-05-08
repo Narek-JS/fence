@@ -1,4 +1,13 @@
+import {
+  PricingSection,
+  MaterialSection,
+  FenceInfoSection,
+  FenceRisksSection,
+  HowItWorksSection,
+  RequirementsSection,
+} from "@/components/sections";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
+import { Banner } from "@/components/Banner";
 import { Header } from "@/components/Header";
 import type { Metadata } from "next";
 
@@ -34,7 +43,7 @@ interface Props {
 
 const TAG_MANAGER_ID = process.env.TAG_MANAGER_ID;
 
-const RootLayout: React.FC<Props> = ({ children }) => (
+const RootLayout: React.FC<Props> = () => (
   <html lang="en">
     <head>
       <Script
@@ -65,7 +74,13 @@ const RootLayout: React.FC<Props> = ({ children }) => (
       )}
     >
       <Header />
-      {children}
+      <Banner />
+      <MaterialSection />
+      <HowItWorksSection />
+      <RequirementsSection />
+      <FenceInfoSection />
+      <PricingSection />
+      <FenceRisksSection />
     </body>
   </html>
 );
