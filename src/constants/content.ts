@@ -65,6 +65,51 @@ const CONTENT = {
   PRICEING_RULE_1: "Free on-site consultation & measurements",
   PRICEING_RULE_2: "Transparent quotes based on fence type & length",
   PRICEING_RULE_3: "Includes permitting, materials, and expert installation",
+
+  // Fance Risks.
+  FENCE_RISK_IMAGE_ALT: "Security Risk",
+
+  FANCE_RISK_1_IMAGE: "fance-risk-1.jpeg",
+  FANCE_RISK_1_TITLE: "Privacy Loss",
+  FANCE_RISK_1_DESCRIPTION:
+    "Without a fence, your outdoor space is fully visible to neighbors and passersby — reducing comfort and privacy for your family.",
+
+  FANCE_RISK_2_IMAGE: "fance-risk-2.jpeg",
+  FANCE_RISK_2_TITLE: "Pets & Children at Risk",
+  FANCE_RISK_2_DESCRIPTION:
+    "Without a proper fence, kids and pets can easily wander off, creating safety hazards and neighborhood concerns.",
+
+  FANCE_RISK_3_IMAGE: "fance-risk-3.png",
+  FANCE_RISK_3_TITLE: "Security Risks",
+  FANCE_RISK_3_DESCRIPTION:
+    "Open properties are more vulnerable to trespassers, theft, or animals entering your yard — especially at night.",
+
+  // Faq.
+  FAQ_TITLE: "Frequently Asked Questions (FAQs)",
+
+  FAQ_1_QUESTION: "Do I need a permit to build a fence?",
+  FAQ_1_ANSWER:
+    "In most cases, yes. Local building codes often require permits depending on the height, location, and type of fence. We handle this process for you to ensure compliance.",
+
+  FAQ_2_QUESTION: "How long does fence installation take?",
+  FAQ_2_ANSWER:
+    "Most residential fence installations take 1–3 days depending on the length, terrain, and weather. We provide a timeline estimate during your quote.",
+
+  FAQ_3_QUESTION: "What materials do you offer?",
+  FAQ_3_ANSWER:
+    "We offer wood, vinyl, chain-link, aluminum, and composite fencing options. Each has its own strengths — we’ll help you choose what fits your goals and budget.",
+
+  FAQ_4_QUESTION: "Can you replace or remove an old fence?",
+  FAQ_4_ANSWER:
+    "Yes! We can remove your existing fence before installing the new one. We also offer post removal and site cleanup as part of the job.",
+
+  FAQ_5_QUESTION: "How much does a fence cost?",
+  FAQ_5_ANSWER:
+    "Cost depends on fence type, length, height, and site conditions. We offer free on-site quotes so you get an accurate price with no surprises.",
+
+  FAQ_6_QUESTION: "Do you install gates or automatic openers?",
+  FAQ_6_ANSWER:
+    "Absolutely. We can install walk gates, double gates, and motorized driveway gates with remotes or keypads.",
 };
 
 export { CONTENT };

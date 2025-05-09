@@ -1,3 +1,4 @@
+export { Faq as FaqSection } from "./Faq";
 export { Pricing as PricingSection } from "./Pricing";
 export { Material as MaterialSection } from "./Material";
 export { FenceInfo as FenceInfoSection } from "./FenceInfo";

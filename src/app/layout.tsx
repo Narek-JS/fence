@@ -5,6 +5,7 @@ import {
   FenceRisksSection,
   HowItWorksSection,
   RequirementsSection,
+  FaqSection,
 } from "@/components/sections";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import { Banner } from "@/components/Banner";
@@ -81,6 +82,7 @@ const RootLayout: React.FC<Props> = () => (
       <FenceInfoSection />
       <PricingSection />
       <FenceRisksSection />
+      <FaqSection />
     </body>
   </html>
 );
