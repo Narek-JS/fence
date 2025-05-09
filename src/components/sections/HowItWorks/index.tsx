@@ -14,7 +14,7 @@ const HOW_IT_WORKS = [
 ];
 
 const HowItWorks: React.FC = () => (
-  <section className="w-full py-10">
+  <section className="w-full py-10 -mt-[20px]">
     <div className="relative container mx-auto flex flex-col gap-[20px]">
       <h2 className="font-bold text-[42px] text-center">
         {CONTENT.HOW_IT_WORKS_TITLE}

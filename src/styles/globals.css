@@ -7,6 +7,44 @@
   --primary: var(--primary);
 }
 
+@utility container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px; /* 1rem */
+  padding-right: 16px;
+
+  @variant sm {
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 600px; /* Custom sm max-width */
+  }
+
+  @variant md {
+    padding-left: 32px;
+    padding-right: 32px;
+    max-width: 768px; /* Custom md max-width */
+  }
+
+  @variant lg {
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 992px; /* Custom lg max-width */
+  }
+
+  @variant xl {
+    padding-left: 48px;
+    padding-right: 48px;
+    max-width: 1140px; /* Custom xl max-width */
+  }
+
+  @variant 2xl {
+    padding-left: 64px;
+    padding-right: 64px;
+    max-width: 1320px; /* Custom 2xl max-width */
+  }
+}
+
 body {
   font-family: var(--font-body), system-ui, sans-serif;
   letter-spacing: 0.8px;

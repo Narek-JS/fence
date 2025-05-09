@@ -3,19 +3,19 @@ import Image from "next/image";
 
 const FANCE_INFO = [
   {
-    IMAGE: "/images/fence-info-1.png",
-    TITLE: CONTENT.FENCE_INFO_1_SUB_TITLE,
     DESCRIPTION: CONTENT.FENCE_INFO_1_SUB_DESCRIPTION,
+    TITLE: CONTENT.FENCE_INFO_1_SUB_TITLE,
+    IMAGE: "/images/fence-info-1.png",
   },
   {
-    IMAGE: "/images/fence-info-2.jpg",
-    TITLE: CONTENT.FENCE_INFO_2_SUB_TITLE,
     DESCRIPTION: CONTENT.FENCE_INFO_2_SUB_DESCRIPTION,
+    TITLE: CONTENT.FENCE_INFO_2_SUB_TITLE,
+    IMAGE: "/images/fence-info-2.jpg",
   },
   {
-    IMAGE: "/images/fence-info-3.jpg",
-    TITLE: CONTENT.FENCE_INFO_3_SUB_TITLE,
     DESCRIPTION: CONTENT.FENCE_INFO_3_SUB_DESCRIPTION,
+    TITLE: CONTENT.FENCE_INFO_3_SUB_TITLE,
+    IMAGE: "/images/fence-info-3.jpg",
   },
 ];
 
@@ -25,14 +25,14 @@ const FenceInfo: React.FC = () => (
       <h2 className="font-bold text-[42px] text-center">
         {CONTENT.FENCE_INFO_TITLE}
       </h2>
-      <p className="text-[20px] text-center max-w-[1200px] mx-auto">
+      <p className="text-[20px] text-center">
         {CONTENT.FENCE_INFO_DESCRIPTION}
       </p>
 
       <div className="w-full flex justify-center gap-5 pt-4">
         {FANCE_INFO.map(({ IMAGE, TITLE, DESCRIPTION }, index) => (
           <div
-            className="max-w-[500px] w-full flex flex-col gap-5 border-2 p-5"
+            className="max-w-[500px] w-full flex flex-col justify-between gap-5 border-2 p-5"
             key={index}
           >
             <div className="min-h-[170px] overflow-y-auto  custom-scrollbar flex flex-col gap-5">
@@ -41,11 +41,11 @@ const FenceInfo: React.FC = () => (
             </div>
 
             <Image
+              className="h-full max-h-[340px] object-cover"
               alt={CONTENT.FENCE_INFO_IMAGE_ALT}
-              className="h-full object-cover"
+              height={340}
               src={IMAGE}
-              width={500}
-              height={500}
+              width={340}
             />
           </div>
         ))}

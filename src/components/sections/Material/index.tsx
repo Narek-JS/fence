@@ -38,14 +38,11 @@ const Material: React.FC = () => {
           {CONTENT.MATERIAL_DESCRIPTION}
         </p>
 
-        <div
-          className="relative max-w-[984px] mx-auto p-2.5 overflow-hidden"
-          ref={emblaRef}
-        >
+        <div className="relative py-2.5 overflow-hidden" ref={emblaRef}>
           <div className="flex gap-8">
             {MATERIALS.map(({ ICON: IconComponent, TEXT }, index) => (
               <div
-                className="min-w-[300px] h-[200px] flex flex-col items-center justify-center gap-3 rounded-2xl bg-white shadow-md"
+                className="min-w-[350px] h-[200px] flex flex-col items-center justify-center gap-3 rounded-2xl bg-white shadow-md"
                 key={index}
               >
                 <div className="border-2 border-[var(--primary)] p-3 rounded-full">
