@@ -1,15 +1,4 @@
-import {
-  PricingSection,
-  MaterialSection,
-  FenceInfoSection,
-  FenceRisksSection,
-  HowItWorksSection,
-  RequirementsSection,
-  FaqSection,
-} from "@/components/sections";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
-import { Banner } from "@/components/Banner";
-import { Header } from "@/components/Header";
 import type { Metadata } from "next";
 
 import classNames from "classnames";
@@ -44,7 +33,7 @@ interface Props {
 
 const TAG_MANAGER_ID = process.env.TAG_MANAGER_ID;
 
-const RootLayout: React.FC<Props> = () => (
+const RootLayout: React.FC<Props> = ({ children }) => (
   <html lang="en">
     <head>
       <Script
@@ -74,15 +63,7 @@ const RootLayout: React.FC<Props> = () => (
         "antialiased"
       )}
     >
-      <Header />
-      <Banner />
-      <MaterialSection />
-      <HowItWorksSection />
-      <RequirementsSection />
-      <FenceInfoSection />
-      <PricingSection />
-      <FenceRisksSection />
-      <FaqSection />
+      {children}
     </body>
   </html>
 );
