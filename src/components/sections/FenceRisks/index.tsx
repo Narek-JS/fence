@@ -22,22 +22,24 @@ const FANCE_RISKS = [
 const FenceRisks: React.FC = () => {
   return (
     <section className="w-full py-10">
-      <div className="relative container mx-auto w-full max-w-[1250px] shadow-xl rounded-xl p-7 flex flex-wrap justify-between gap-10">
-        {FANCE_RISKS.map(({ DESCRIPTION, IMAGE, TITLE }, index) => (
-          <div className="flex gap-5 max-w-[560px]" key={index}>
-            <Image
-              className="min-h-[200px] h-[200px] min-w-[280px] object-cover rounded-2xl"
-              alt={CONTENT.FENCE_RISK_IMAGE_ALT}
-              height={200}
-              width={280}
-              src={IMAGE}
-            />
-            <div className="flex flex-col justify-evenly">
-              <h5 className="font-semibold text-[22px]">{TITLE}</h5>
-              <p>{DESCRIPTION}</p>
+      <div className="relative container w-full">
+        <div className="shadow-xl rounded-xl p-7 flex flex-wrap justify-between gap-5">
+          {FANCE_RISKS.map(({ DESCRIPTION, IMAGE, TITLE }, index) => (
+            <div className="flex gap-5 max-w-[540px]" key={index}>
+              <Image
+                className="min-h-[200px] h-[200px] min-w-[280px] object-cover rounded-2xl"
+                alt={CONTENT.FENCE_RISK_IMAGE_ALT}
+                height={200}
+                width={280}
+                src={IMAGE}
+              />
+              <div className="flex flex-col justify-evenly">
+                <h5 className="font-semibold text-[22px]">{TITLE}</h5>
+                <p>{DESCRIPTION}</p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );

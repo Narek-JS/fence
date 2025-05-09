@@ -13,7 +13,7 @@ const Pricing: React.FC = () => {
         <h2 className="font-bold text-[42px] text-center">
           {CONTENT.PRICEING_TITLE}
         </h2>
-        <p className="text-[20px] text-center max-w-[1200px] mx-auto">
+        <p className="text-[20px] text-center">
           {CONTENT.PRICEING_DESCRIPTION}
         </p>
 

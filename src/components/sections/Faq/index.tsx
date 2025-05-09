@@ -13,7 +13,7 @@ const FAQS = [
 const Faq: React.FC = () => {
   return (
     <section className="w-full py-10">
-      <div className="relative container max-w-[1200px] mx-auto flex flex-col gap-[20px]">
+      <div className="relative container w-full flex flex-col gap-[20px]">
         <h2 className="font-bold text-[42px] text-center">
           {CONTENT.FAQ_TITLE}
         </h2>
