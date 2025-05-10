@@ -17,7 +17,7 @@ const Banner: React.FC = () => (
     <div className="container mx-auto flex flex-col gap-6 sm:gap-8 py-6 sm:py-10">
       <SiteHeader />
 
-      <h1 className="text-white text-[60px] lg:text-[92px] text-center font-semibold mt-6">
+      <h1 className="text-white text-[52px] lg:text-[92px] text-center font-semibold mt-6">
         {CONTENT.TITLE}
       </h1>
 

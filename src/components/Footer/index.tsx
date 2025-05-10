@@ -59,12 +59,14 @@ const Footer: React.FC = () => (
       </div>
 
       <div className="flex flex-col items-center justify-center gap-2">
-        <div className="flex items-center justify-center gap-2.5 text-[#FFFFFF] text-[18px]">
+        <div className="flex items-center justify-center gap-2.5 text-[#FFFFFF] sm:text-[18px]">
           <Link href={MENU.PRIVACY.LINK}>{MENU.PRIVACY.TEXT}</Link>
           <Link href={MENU.TERMS.LINK}>{MENU.TERMS.TEXT}</Link>
         </div>
-        <p className="text-[#FFFFFF] -mb-1.5">{CONTENT.FOOTER_COPYRIGHT}</p>
-        <p className="text-[#FFFFFF] text-[14px]">
+        <p className="text-[#FFFFFF] -mb-1.5 text-[13.5px] sm:text-[15px]">
+          {CONTENT.FOOTER_COPYRIGHT}
+        </p>
+        <p className="text-[#FFFFFF] text-[12px] sm:text-[13.5px]">
           {CONTENT.FOOTER_OWNERSHIP_NOTICE}
         </p>
       </div>

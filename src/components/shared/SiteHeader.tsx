@@ -5,9 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const SiteHeader: React.FC = () => (
-  <div className="w-full flex items-center justify-between gap-[20px]">
+  <div className="w-full flex items-center justify-between gap-[7px] sm:gap-[20px]">
     <Image
-      className="rounded object-none h-[65px] min-w-[120px]"
+      className="rounded object-none h-[60px] sm:h-[65px] min-w-[100px] sm:min-w-[120px]"
       src="/images/logo.png"
       width={120}
       height={65}
