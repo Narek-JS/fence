@@ -117,6 +117,13 @@ const CONTENT = {
   QUOTE_EMAIL_PLACEHOLDER: "Your Email",
   QUOTE_PHONE_PLACEHOLDER: "Phone Number",
   QUOTE_TEXTAREA_PLACEHOLDER: "How Can We Help?",
+  QUOTE_FULL_NAME_ERROR_REQUIRED: "Full name is required",
+  QUOTE_COMPANY_NAME_ERROR_REQUIRED: "Company is required",
+  QUOTE_EMAIL_ERROR_REQUIRED: "Email is required",
+  QUOTE_PHONE_ERROR_REQUIRED: "Phone number is required",
+  QUOTE_TEXTAREA_ERROR_REQUIRED: "Message is required",
+  QUOTE_PHONE_ERROR_SHORT: "Phone number too short",
+  QUOTE_EMAIL_ERROR_FORMAT: "Invalid email format",
   QUOTE_SUBMIT: "Submit",
 
   // Footer.

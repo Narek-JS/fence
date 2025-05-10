@@ -32,7 +32,9 @@ const QuoteForm: React.FC = () => {
           <input
             className="w-full h-[48px] rounded bg-[#FFFFFF] p-3"
             placeholder={CONTENT.QUOTE_FULL_NAME_PLACEHOLDER}
-            {...register("full_name", { required: "Full name is required" })}
+            {...register("full_name", {
+              required: CONTENT.QUOTE_FULL_NAME_ERROR_REQUIRED,
+            })}
           />
           {errors.full_name && (
             <p className="absolute -bottom-6 text-[#DC2626]">
@@ -45,7 +47,7 @@ const QuoteForm: React.FC = () => {
             className="w-full h-[48px] rounded bg-[#FFFFFF] p-3"
             placeholder={CONTENT.QUOTE_COMPANY_NAME_PLACEHOLDER}
             {...register("company_name", {
-              required: "Company name is required",
+              required: CONTENT.QUOTE_COMPANY_NAME_ERROR_REQUIRED,
             })}
           />
           {errors.company_name && (
@@ -60,10 +62,10 @@ const QuoteForm: React.FC = () => {
           className="w-full h-[48px] rounded bg-[#FFFFFF] p-3"
           placeholder={CONTENT.QUOTE_EMAIL_PLACEHOLDER}
           {...register("email", {
-            required: "Email is required",
+            required: CONTENT.QUOTE_EMAIL_ERROR_REQUIRED,
             pattern: {
               value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-              message: "Invalid email format",
+              message: CONTENT.QUOTE_EMAIL_ERROR_FORMAT,
             },
           })}
         />
@@ -78,8 +80,8 @@ const QuoteForm: React.FC = () => {
           className="w-full h-[48px] rounded bg-[#FFFFFF] p-3"
           placeholder={CONTENT.QUOTE_PHONE_PLACEHOLDER}
           {...register("phone", {
-            required: "Phone number is required",
-            minLength: { value: 10, message: "Phone number too short" },
+            required: CONTENT.QUOTE_PHONE_ERROR_REQUIRED,
+            minLength: { value: 10, message: CONTENT.QUOTE_PHONE_ERROR_SHORT },
           })}
         />
         {errors.phone && (
@@ -92,7 +94,9 @@ const QuoteForm: React.FC = () => {
         <textarea
           className="w-full rounded bg-[#FFFFFF] resize-none p-3 h-[120px]"
           placeholder={CONTENT.QUOTE_TEXTAREA_PLACEHOLDER}
-          {...register("message", { required: "Message is required" })}
+          {...register("message", {
+            required: CONTENT.QUOTE_TEXTAREA_ERROR_REQUIRED,
+          })}
         />
         {errors.message && (
           <p className="absolute -bottom-4 text-[#DC2626]">
