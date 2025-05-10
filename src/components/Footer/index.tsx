@@ -63,10 +63,10 @@ const Footer: React.FC = () => (
           <Link href={MENU.PRIVACY.LINK}>{MENU.PRIVACY.TEXT}</Link>
           <Link href={MENU.TERMS.LINK}>{MENU.TERMS.TEXT}</Link>
         </div>
-        <p className="text-[#FFFFFF] -mb-0.5 text-[12.5px] sm:text-[14px]">
+        <p className="text-[#FFFFFF] text-center -mb-0.5 text-[12.5px] sm:text-[14px]">
           {CONTENT.FOOTER_COPYRIGHT}
         </p>
-        <p className="text-[#FFFFFF] text-[11px] sm:text-[11.5px]">
+        <p className="text-[#FFFFFF] text-center text-[11px] sm:text-[11.5px]">
           {CONTENT.FOOTER_OWNERSHIP_NOTICE}
         </p>
       </div>
