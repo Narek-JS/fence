@@ -110,6 +110,25 @@ const CONTENT = {
   FAQ_6_QUESTION: "Do you install gates or automatic openers?",
   FAQ_6_ANSWER:
     "Absolutely. We can install walk gates, double gates, and motorized driveway gates with remotes or keypads.",
+
+  // Quote Form.
+  QUOTE_FULL_NAME_PLACEHOLDER: "Full Name",
+  QUOTE_COMPANY_NAME_PLACEHOLDER: "Company Name",
+  QUOTE_EMAIL_PLACEHOLDER: "Your Email",
+  QUOTE_PHONE_PLACEHOLDER: "Phone Number",
+  QUOTE_TEXTAREA_PLACEHOLDER: "How Can We Help?",
+  QUOTE_SUBMIT: "Submit",
+
+  // Footer.
+  FOOTER_CONTACT_US_TITLE: "Contact Us!",
+  FOOTER_CONTACT_US_DESCRIPTION:
+    "Ready to secure your property with a custom fence? Whether you need privacy, safety, or a style upgrade — we’re here to help.",
+
+  FOOTER_FORM_TITLE: "Get in Touch",
+
+  FOOTER_COPYRIGHT: "© 2025 - SecureFence Solutions. All rights reserved.",
+  FOOTER_OWNERSHIP_NOTICE:
+    "This website is owned and operated by SecureFence Installations LLC",
 };
 
 export { CONTENT };

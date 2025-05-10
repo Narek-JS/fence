@@ -8,13 +8,12 @@ import {
   RequirementsSection,
 } from "@/components/sections";
 import { Banner } from "@/components/Banner";
-import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 import { Fragment } from "react";
 
 const Home = () => {
   return (
     <Fragment>
-      <Header />
       <Banner />
       <main>
         <MaterialSection />
@@ -25,6 +24,7 @@ const Home = () => {
         <FenceRisksSection />
         <FaqSection />
       </main>
+      <Footer />
     </Fragment>
   );
 };
