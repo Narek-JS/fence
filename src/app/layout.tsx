@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono, Inter } from "next/font/google";
+import { Header } from "@/components/Header";
 import type { Metadata } from "next";
 
 import classNames from "classnames";
@@ -63,6 +64,7 @@ const RootLayout: React.FC<Props> = ({ children }) => (
         "antialiased"
       )}
     >
+      <Header />
       {children}
     </body>
   </html>
