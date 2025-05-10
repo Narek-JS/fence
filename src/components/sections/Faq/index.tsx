@@ -10,20 +10,18 @@ const FAQS = [
   { QUESTION: CONTENT.FAQ_6_QUESTION, ANSWER: CONTENT.FAQ_6_ANSWER },
 ];
 
-const Faq: React.FC = () => {
-  return (
-    <section className="w-full py-10">
-      <div className="relative container w-full flex flex-col gap-[20px]">
-        <h2 className="font-bold text-[42px] text-center">
-          {CONTENT.FAQ_TITLE}
-        </h2>
+const Faq: React.FC = () => (
+  <section className="w-full py-10">
+    <div className="relative container w-full flex flex-col gap-[20px]">
+      <h2 className="font-bold text-[32px] sm:text-[42px] text-center">
+        {CONTENT.FAQ_TITLE}
+      </h2>
 
-        {FAQS.map(({ ANSWER, QUESTION }, index) => (
-          <FAQItem question={QUESTION} answer={ANSWER} key={index} />
-        ))}
-      </div>
-    </section>
-  );
-};
+      {FAQS.map(({ ANSWER, QUESTION }, index) => (
+        <FAQItem question={QUESTION} answer={ANSWER} key={index} />
+      ))}
+    </div>
+  </section>
+);
 
 export { Faq };

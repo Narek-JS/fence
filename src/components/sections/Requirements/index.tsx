@@ -17,18 +17,18 @@ const REQUIREMENTS = [
 const Requirements: React.FC = () => (
   <section className="w-full py-10">
     <div className="relative container mx-auto flex flex-col gap-[20px]">
-      <h2 className="font-bold text-[42px] text-center">
+      <h2 className="font-bold text-[32px] sm:text-[42px] text-center">
         {CONTENT.REQUIREMENTS_TITLE}
       </h2>
       <p className="text-[20px] text-center">
         {CONTENT.REQUIREMENTS_DESCRIPTION}
       </p>
 
-      <div className="w-full flex justify-center gap-5 pt-10">
+      <div className="w-full flex flex-col sm:flex-row justify-center gap-14 sm:gap-5 pt-10">
         {REQUIREMENTS.map(
           ({ DESCRIPTION, TITLE, ICON: IconComponent }, index) => (
             <div
-              className="relative max-w-[500px] flex flex-col gap-5 shadow-xl py-10 px-6"
+              className="relative sm:max-w-[500px] flex flex-col gap-5 shadow-xl py-10 px-6"
               key={index}
             >
               <div className="absolute -top-7 left-5 w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary)]">

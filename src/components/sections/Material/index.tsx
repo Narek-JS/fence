@@ -25,13 +25,13 @@ const MATERIALS = [
 ];
 
 const Material: React.FC = () => {
-  const [emblaRef, emblaApi] = useEmblaCarousel();
+  const [emblaRef, emblaApi] = useEmblaCarousel({ startIndex: 1 });
   const { onNext, onPrev, nextDisabled, prevDisabled } = useCarousel(emblaApi);
 
   return (
     <section className="relative w-full py-10">
       <div className="container mx-auto flex flex-col gap-[20px]">
-        <h2 className="font-bold text-[42px] text-center">
+        <h2 className="font-bold text-[32px] sm:text-[42px] text-center">
           {CONTENT.MATERIAL_TITLE}
         </h2>
         <p className="text-[20px] text-center">
@@ -39,16 +39,16 @@ const Material: React.FC = () => {
         </p>
 
         <div className="relative py-2.5 overflow-hidden" ref={emblaRef}>
-          <div className="flex gap-8">
+          <div className="flex gap-4 sm:gap-6 md:gap-8">
             {MATERIALS.map(({ ICON: IconComponent, TEXT }, index) => (
               <div
-                className="min-w-[350px] h-[200px] flex flex-col items-center justify-center gap-3 rounded-2xl bg-white shadow-md"
                 key={index}
+                className="min-w-[280px] sm:min-w-[320px] md:min-w-[350px] h-[180px] sm:h-[200px] flex flex-col items-center justify-center gap-3 rounded-2xl bg-white shadow-md px-4"
               >
                 <div className="border-2 border-[var(--primary)] p-3 rounded-full">
-                  <IconComponent size={32} className="text-[var(--primary)]" />
+                  <IconComponent size={28} className="text-[var(--primary)]" />
                 </div>
-                <h4 className="text-[var(--primary)] font-bold text-[24px]">
+                <h4 className="text-[var(--primary)] font-bold text-[18px] sm:text-[20px] md:text-[24px] text-center">
                   {TEXT}
                 </h4>
               </div>

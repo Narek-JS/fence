@@ -25,9 +25,12 @@ const FenceRisks: React.FC = () => {
       <div className="relative container w-full">
         <div className="shadow-xl rounded-xl p-7 flex flex-wrap justify-between gap-5">
           {FANCE_RISKS.map(({ DESCRIPTION, IMAGE, TITLE }, index) => (
-            <div className="flex gap-5 max-w-[540px]" key={index}>
+            <div
+              className="flex flex-col-reverse sm:flex-row gap-5 max-w-[540px]"
+              key={index}
+            >
               <Image
-                className="min-h-[200px] h-[200px] min-w-[280px] object-cover rounded-2xl"
+                className="min-h-[180px] max-h-[200px] min-w-[240px] sm:max-w-[280px] w-full object-cover rounded-2xl"
                 alt={CONTENT.FENCE_RISK_IMAGE_ALT}
                 height={200}
                 width={280}
