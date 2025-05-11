@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Footer: React.FC = () => (
-  <footer className="relative w-full pt-10 pb-4">
+  <footer className="footer relative w-full pt-10 pb-4">
     <Image
       className="object-cover absolute inset-0 -z-10"
       src="/images/banner.png"
