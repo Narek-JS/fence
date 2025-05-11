@@ -10,6 +10,17 @@ import Image from "next/image";
 const Banner: React.FC = () => {
   const { open } = useModal();
 
+  const openQuoteModal = () => {
+    open(
+      <div className="w-full flex flex-col items-center gap-4">
+        <h2 className="font-bold text-[32px] text-[#000]">
+          {CONTENT.FOOTER_FORM_TITLE}
+        </h2>
+        <QuoteForm />
+      </div>
+    );
+  };
+
   return (
     <div className="relative w-full h-screen overflow-clip">
       <Image
@@ -38,16 +49,7 @@ const Banner: React.FC = () => {
           </button>
           <button
             className="max-w-[380px] w-full h-[44px] sm:h-[48px] rounded bg-white flex items-center justify-center font-semibold text-[18px] text-[var(--primary)] cursor-pointer"
-            onClick={() =>
-              open(
-                <div className="w-full flex flex-col items-center gap-4">
-                  <h2 className="font-bold text-[32px] text-[#000]">
-                    {CONTENT.FOOTER_FORM_TITLE}
-                  </h2>
-                  <QuoteForm />
-                </div>
-              )
-            }
+            onClick={openQuoteModal}
           >
             {CONTENT.GET_FREE_QUOTE}
           </button>
