@@ -3,7 +3,6 @@ const CONTENT = {
   TITLE: "Quality Fence Installation",
   DESCRIPTION:
     " Quality Fence Installation Secure, stylish, and durable fencing solutions for homes & businesses across Los Angeles.",
-  VIEW_OUR_WORK: "View Our Work",
   GET_FREE_QUOTE: "Get Free Quote",
 
   // Materials.
@@ -125,6 +124,12 @@ const CONTENT = {
   QUOTE_PHONE_ERROR_SHORT: "Phone number too short",
   QUOTE_EMAIL_ERROR_FORMAT: "Invalid email format",
   QUOTE_SUBMIT: "Submit",
+
+  // Portfolio.
+  PORTFOLIO_TITLE: "Our Portfolio",
+  PORTFOLIO_DESCRIPTION:
+    "Explore some of our completed fence installation projects.",
+  PORTFOLIO_CARD_BUTTON: "View Details",
 
   // Footer.
   FOOTER_CONTACT_US_TITLE: "Contact Us!",

@@ -5,7 +5,9 @@ import { SiteHeader } from "../shared/SiteHeader";
 import { CONTENT } from "@/constants/content";
 import { useModal } from "@/context/Modal";
 import { QuoteForm } from "../QuoteForm";
+import { MENU } from "@/constants/menu";
 import Image from "next/image";
+import Link from "next/link";
 
 const Banner: React.FC = () => {
   const { open } = useModal();
@@ -44,9 +46,12 @@ const Banner: React.FC = () => {
         </p>
 
         <div className="flex flex-col items-center gap-4 sm:gap-5 mt-8 sm:mt-10">
-          <button className="max-w-[380px] w-full h-[44px] sm:h-[48px] rounded bg-white flex items-center justify-center font-semibold text-[18px] text-[var(--primary)] cursor-pointer">
-            {CONTENT.VIEW_OUR_WORK}
-          </button>
+          <Link
+            className="max-w-[380px] w-full h-[44px] sm:h-[48px] rounded bg-white flex items-center justify-center font-semibold text-[18px] text-[var(--primary)] cursor-pointer"
+            href={MENU.PORTFOLIO.LINK}
+          >
+            {MENU.PORTFOLIO.TEXT}
+          </Link>
           <button
             className="max-w-[380px] w-full h-[44px] sm:h-[48px] rounded bg-white flex items-center justify-center font-semibold text-[18px] text-[var(--primary)] cursor-pointer"
             onClick={openQuoteModal}

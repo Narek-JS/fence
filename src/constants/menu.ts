@@ -11,6 +11,8 @@ const NAV_MENU = {
 const ADDITIONAL_LINKS = {
   TERMS: { LINK: "/terms-and-conditions", TEXT: "Terms and Conditions" },
   PRIVACY: { LINK: "/privacy-policy", TEXT: "Privacy Policy" },
+  PORTFOLIO: { LINK: "/portfolio", TEXT: "View Our Work" },
+  HOME: { LINK: "/", TEXT: "Home" },
 };
 
 const enumeratedLinks = Object.fromEntries(

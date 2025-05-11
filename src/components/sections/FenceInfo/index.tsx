@@ -35,7 +35,7 @@ const FenceInfo: React.FC = () => (
             className="lg:w-[500px] flex flex-col justify-between gap-5 border-2 p-5"
             key={index}
           >
-            <div className="min-h-[170px] overflow-y-auto  custom-scrollbar flex flex-col gap-5">
+            <div className="min-h-[170px] overflow-y-auto custom-scrollbar flex flex-col gap-5">
               <h4 className="font-semibold text-[22px]">{TITLE}</h4>
               <p>{DESCRIPTION}</p>
             </div>

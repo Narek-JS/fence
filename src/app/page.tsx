@@ -8,7 +8,6 @@ import {
   RequirementsSection,
 } from "@/components/sections";
 import { Banner } from "@/components/Banner";
-import { Footer } from "@/components/Footer";
 import { Fragment } from "react";
 
 const Home = () => {
@@ -24,7 +23,6 @@ const Home = () => {
         <FenceRisksSection />
         <FaqSection />
       </main>
-      <Footer />
     </Fragment>
   );
 };
