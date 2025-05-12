@@ -11,7 +11,7 @@ type FormValues = {
   phone: string;
 };
 
-const QuoteFormModal: React.FC = () => {
+const QuoteModal: React.FC = () => {
   const {
     register,
     handleSubmit,
@@ -122,4 +122,4 @@ const QuoteFormModal: React.FC = () => {
   );
 };
 
-export { QuoteFormModal };
+export { QuoteModal };

@@ -10,7 +10,7 @@ import {
 import { Banner } from "@/components/Banner";
 import { Fragment } from "react";
 
-const Home = () => (
+const Home: React.FC = () => (
   <Fragment>
     <Banner />
     <main>

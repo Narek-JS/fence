@@ -133,6 +133,17 @@ const CONTENT = {
   PORTFOLIO_CARD_BUTTON: "View Details",
   BACK_TO_PORTFOLIO: "Back to Portfolio",
 
+  // Contact Details.
+  CONTACT_DETAILS_TITLE: "Contact Details",
+  CONTACT_DETAILS_DESCRIPTION:
+    "Please contact us if you have any questions or concerns. Our contact details are as follows:",
+
+  // Privacy Policy.
+  PRIVACY_TITLE: "Privacy Policy",
+
+  // Terms and Conditions.
+  TERMS_TITLE: "Terms and Conditions",
+
   // Footer.
   FOOTER_CONTACT_US_TITLE: "Contact Us!",
   FOOTER_CONTACT_US_DESCRIPTION:
