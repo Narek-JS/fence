@@ -24,7 +24,7 @@ const QuoteFormModal: React.FC = () => {
 
   return (
     <div className="w-full flex flex-col items-center gap-4">
-      <h2 className="font-bold text-[32px] text-[#000]">
+      <h2 className="font-bold text-[32px] text-[#000] [.footer_&]:text-[#FFFFFF]">
         {CONTENT.QUOTE_FORM_TITLE}
       </h2>
       <form
@@ -34,7 +34,7 @@ const QuoteFormModal: React.FC = () => {
         <div className="flex items-center gap-2.5">
           <div className="relative w-full">
             <input
-              className="w-full h-[48px] rounded shadow-md border-b bg-[#FFFFFF] p-3"
+              className="w-full h-[48px] rounded border border-gray-300 bg-[#FFFFFF] p-3 outline-none"
               placeholder={CONTENT.QUOTE_FULL_NAME_PLACEHOLDER}
               {...register("full_name", {
                 required: CONTENT.QUOTE_FULL_NAME_ERROR_REQUIRED,
@@ -48,7 +48,7 @@ const QuoteFormModal: React.FC = () => {
           </div>
           <div className="relative w-full">
             <input
-              className="w-full h-[48px] rounded shadow-md border-b bg-[#FFFFFF] p-3"
+              className="w-full h-[48px] rounded border border-gray-300 bg-[#FFFFFF] p-3  outline-none"
               placeholder={CONTENT.QUOTE_COMPANY_NAME_PLACEHOLDER}
               {...register("company_name", {
                 required: CONTENT.QUOTE_COMPANY_NAME_ERROR_REQUIRED,
@@ -63,7 +63,7 @@ const QuoteFormModal: React.FC = () => {
         </div>
         <div className="relative w-full">
           <input
-            className="w-full h-[48px] rounded shadow-md border-b bg-[#FFFFFF] p-3"
+            className="w-full h-[48px] rounded border border-gray-300 bg-[#FFFFFF] p-3 outline-none"
             placeholder={CONTENT.QUOTE_EMAIL_PLACEHOLDER}
             {...register("email", {
               required: CONTENT.QUOTE_EMAIL_ERROR_REQUIRED,
@@ -81,7 +81,7 @@ const QuoteFormModal: React.FC = () => {
         </div>
         <div className="relative w-full">
           <input
-            className="w-full h-[48px] rounded shadow-md border-b bg-[#FFFFFF] p-3"
+            className="w-full h-[48px] rounded border border-gray-300 bg-[#FFFFFF] p-3 outline-none"
             placeholder={CONTENT.QUOTE_PHONE_PLACEHOLDER}
             {...register("phone", {
               required: CONTENT.QUOTE_PHONE_ERROR_REQUIRED,
@@ -99,7 +99,7 @@ const QuoteFormModal: React.FC = () => {
         </div>
         <div className="relative w-full">
           <textarea
-            className="w-full rounded shadow-md border-b bg-[#FFFFFF] resize-none p-3 h-[120px]"
+            className="w-full rounded border border-gray-300 bg-[#FFFFFF] resize-none p-3 h-[120px] outline-none"
             placeholder={CONTENT.QUOTE_TEXTAREA_PLACEHOLDER}
             {...register("message", {
               required: CONTENT.QUOTE_TEXTAREA_ERROR_REQUIRED,

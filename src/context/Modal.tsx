@@ -30,9 +30,9 @@ export const ModalProvider = ({ children }: { children: ReactNode }) => {
               onClick={(e) => e.stopPropagation()}
             >
               <X
-                className="absolute top-1 right-1 cursor-pointer"
+                className="absolute top-2.5 right-2 cursor-pointer"
                 onClick={close}
-                size={32}
+                size={28}
               />
               {modalContent}
             </div>
