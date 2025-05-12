@@ -111,6 +111,7 @@ const CONTENT = {
     "Absolutely. We can install walk gates, double gates, and motorized driveway gates with remotes or keypads.",
 
   // Quote Form.
+  QUOTE_FORM_TITLE: "Get in Touch",
   QUOTE_FULL_NAME_PLACEHOLDER: "Full Name",
   QUOTE_COMPANY_NAME_PLACEHOLDER: "Company Name",
   QUOTE_EMAIL_PLACEHOLDER: "Your Email",
@@ -130,13 +131,12 @@ const CONTENT = {
   PORTFOLIO_DESCRIPTION:
     "Explore some of our completed fence installation projects.",
   PORTFOLIO_CARD_BUTTON: "View Details",
+  BACK_TO_PORTFOLIO: "Back to Portfolio",
 
   // Footer.
   FOOTER_CONTACT_US_TITLE: "Contact Us!",
   FOOTER_CONTACT_US_DESCRIPTION:
     "Ready to secure your property with a custom fence? Whether you need privacy, safety, or a style upgrade — we’re here to help.",
-
-  FOOTER_FORM_TITLE: "Get in Touch",
 
   FOOTER_COPYRIGHT: "© 2025 - SecureFence Solutions. All rights reserved.",
   FOOTER_OWNERSHIP_NOTICE:

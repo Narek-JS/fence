@@ -1,5 +1,4 @@
 import { Geist, Geist_Mono, Inter } from "next/font/google";
-import { ModalProvider } from "@/context/Modal";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import type { Metadata } from "next";
@@ -66,11 +65,9 @@ const RootLayout: React.FC<Props> = ({ children }) => (
         "antialiased"
       )}
     >
-      <ModalProvider>
-        <Header />
-        {children}
-        <Footer />
-      </ModalProvider>
+      <Header />
+      {children}
+      <Footer />
     </body>
   </html>
 );

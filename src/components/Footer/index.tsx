@@ -1,7 +1,7 @@
 import { MapPin, Mail, Phone } from "lucide-react";
+import { QuoteFormModal } from "../QuoteFormModal";
 import { CONTACTS } from "@/constants/contacts";
 import { CONTENT } from "@/constants/content";
-import { QuoteForm } from "../QuoteForm";
 import { MENU } from "@/constants/menu";
 import Image from "next/image";
 import Link from "next/link";
@@ -52,9 +52,9 @@ const Footer: React.FC = () => (
         </div>
         <div className="md:max-w-[550px] w-full flex flex-col items-center gap-8">
           <h2 className="font-bold text-[32px] sm:text-[42px] text-[#FFFFFF]">
-            {CONTENT.FOOTER_FORM_TITLE}
+            {CONTENT.QUOTE_FORM_TITLE}
           </h2>
-          <QuoteForm />
+          <QuoteFormModal />
         </div>
       </div>
 
