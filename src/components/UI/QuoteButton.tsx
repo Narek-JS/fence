@@ -1,7 +1,7 @@
 "use client";
 
 import { ModalProvider, useModal } from "@/context/Modal";
-import { QuoteModal } from "../Modals/QuoteModal";
+import { QuoteModal } from "../Modals/Quote";
 import classNames from "classnames";
 
 type ButtonComponent = React.ButtonHTMLAttributes<HTMLButtonElement>;

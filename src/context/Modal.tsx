@@ -3,6 +3,10 @@
 import { createContext, useContext, useState, ReactNode } from "react";
 import { X } from "lucide-react";
 
+interface Props {
+  children: ReactNode;
+}
+
 type ModalContextType = {
   open: (content: ReactNode) => void;
   close: () => void;
@@ -10,7 +14,7 @@ type ModalContextType = {
 
 const ModalContext = createContext<ModalContextType | undefined>(undefined);
 
-export const ModalProvider = ({ children }: { children: ReactNode }) => {
+const ModalProvider: React.FC<Props> = ({ children }) => {
   const [modalContent, setModalContent] = useState<ReactNode | null>(null);
 
   const open = (content: ReactNode) => setModalContent(content);
@@ -43,8 +47,10 @@ export const ModalProvider = ({ children }: { children: ReactNode }) => {
   );
 };
 
-export const useModal = () => {
+const useModal = () => {
   const context = useContext(ModalContext);
   if (!context) throw new Error("useModal must be used within ModalProvider");
   return context;
 };
+
+export { ModalProvider, useModal };

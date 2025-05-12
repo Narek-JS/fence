@@ -1,7 +1,7 @@
 import { MapPin, Mail, Phone } from "lucide-react";
-import { QuoteModal } from "../Modals/QuoteModal";
 import { CONTACTS } from "@/constants/contacts";
 import { CONTENT } from "@/constants/content";
+import { QuoteModal } from "../Modals/Quote";
 import { MENU } from "@/constants/menu";
 import Image from "next/image";
 import Link from "next/link";
