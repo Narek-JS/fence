@@ -14,6 +14,7 @@ import { useCarousel } from "@/hooks/useCarousel";
 import { CONTENT } from "@/constants/content";
 
 import useEmblaCarousel from "embla-carousel-react";
+import { MENU } from "@/constants/menu";
 
 const MATERIALS = [
   { TEXT: CONTENT.MATERIAL_SLIDE_1, ICON: MATERIAL_SLIDE_1_ICON },
@@ -29,7 +30,7 @@ const Material: React.FC = () => {
   const { onNext, onPrev, nextDisabled, prevDisabled } = useCarousel(emblaApi);
 
   return (
-    <section className="relative w-full py-10">
+    <section className="relative w-full py-10" id={MENU.MATERIALS.ID}>
       <div className="container mx-auto flex flex-col gap-[20px]">
         <h2 className="font-bold text-[32px] sm:text-[42px] text-center">
           {CONTENT.MATERIAL_TITLE}

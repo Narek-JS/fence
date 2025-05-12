@@ -1,18 +1,57 @@
 const NAV_MENU = {
-  HOW_IT_WORKS: { LINK: "#how-it-works", TEXT: "How It Works" },
-  MATERIALS: { LINK: "#materials", TEXT: "Material Options" },
-  CONTACT_US: { LINK: "#contact-us", TEXT: "Contact Us" },
-  PORTFOLIO: { LINK: "#portfolio", TEXT: "Portfolio" },
-  SERVICES: { LINK: "#services", TEXT: "Services" },
-  PRICING: { LINK: "#pricing", TEXT: "Pricing" },
-  FAQ: { LINK: "#faq", TEXT: "FAQ" },
+  MATERIALS: {
+    TEXT: "Material Options",
+    LINK: "/#materials",
+    ID: "materials",
+  },
+  HOW_IT_WORKS: {
+    LINK: "/#how-it-works",
+    TEXT: "How It Works",
+    ID: "how-it-works",
+  },
+  SERVICES: {
+    LINK: "/#services",
+    TEXT: "Services",
+    ID: "services",
+  },
+  PRICING: {
+    LINK: "/#pricing",
+    TEXT: "Pricing",
+    ID: "pricing",
+  },
+  FAQ: {
+    LINK: "/#faq",
+    TEXT: "FAQ",
+    ID: "faq",
+  },
+  CONTACT_US: {
+    LINK: "/#contact-us",
+    TEXT: "Contact Us",
+    ID: "contact-us",
+  },
 };
 
 const ADDITIONAL_LINKS = {
-  TERMS: { LINK: "/terms-and-conditions", TEXT: "Terms and Conditions" },
-  PRIVACY: { LINK: "/privacy-policy", TEXT: "Privacy Policy" },
-  PORTFOLIO: { LINK: "/portfolio", TEXT: "View Our Work" },
-  HOME: { LINK: "/", TEXT: "Home" },
+  TERMS: {
+    LINK: "/terms-and-conditions",
+    TEXT: "Terms and Conditions",
+    ID: "terms-and-conditions",
+  },
+  PRIVACY: {
+    LINK: "/privacy-policy",
+    TEXT: "Privacy Policy",
+    ID: "privacy-policy",
+  },
+  PORTFOLIO: {
+    TEXT: "View Our Work",
+    LINK: "/portfolio",
+    ID: "portfolio",
+  },
+  HOME: {
+    TEXT: "Home",
+    ID: "home",
+    LINK: "/",
+  },
 };
 
 const enumeratedLinks = Object.fromEntries(

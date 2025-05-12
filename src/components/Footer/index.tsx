@@ -19,7 +19,10 @@ const Footer: React.FC = () => (
 
     <div className="container mx-auto flex flex-col gap-10">
       <div className="w-full flex flex-col-reverse md:flex-row justify-between gap-20">
-        <div className="md:max-w-[450px] w-full flex flex-col gap-8">
+        <div
+          className="md:max-w-[450px] w-full flex flex-col gap-8"
+          id={MENU.CONTACT_US.ID}
+        >
           <h2 className="font-bold text-[#FFFFFF] text-[32px] sm:text-[42px]">
             {CONTENT.FOOTER_CONTACT_US_TITLE}
           </h2>

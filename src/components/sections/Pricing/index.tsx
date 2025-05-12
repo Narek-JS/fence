@@ -1,4 +1,5 @@
 import { CONTENT } from "@/constants/content";
+import { MENU } from "@/constants/menu";
 
 const PRICEING_RULES = [
   CONTENT.PRICEING_RULE_1,
@@ -7,7 +8,7 @@ const PRICEING_RULES = [
 ];
 
 const Pricing: React.FC = () => (
-  <section className="w-full py-10">
+  <section className="w-full py-10" id={MENU.PRICING.ID}>
     <div className="relative container mx-auto flex flex-col gap-[20px]">
       <h2 className="font-bold text-[32px] sm:text-[42px] text-center">
         {CONTENT.PRICEING_TITLE}

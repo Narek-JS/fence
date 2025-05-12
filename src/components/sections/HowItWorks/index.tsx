@@ -5,6 +5,7 @@ import {
   Boxes as HOW_IT_WORKS_STEP_2_ICON,
 } from "lucide-react";
 import { CONTENT } from "@/constants/content";
+import { MENU } from "@/constants/menu";
 
 const HOW_IT_WORKS = [
   { TEXT: CONTENT.HOW_IT_WORKS_STEP_1, ICON: HOW_IT_WORKS_STEP_1_ICON },
@@ -14,7 +15,7 @@ const HOW_IT_WORKS = [
 ];
 
 const HowItWorks: React.FC = () => (
-  <section className="w-full py-10 -mt-[20px]">
+  <section className="w-full py-10 -mt-[20px]" id={MENU.HOW_IT_WORKS.ID}>
     <div className="relative container mx-auto flex flex-col gap-[20px]">
       <h2 className="font-bold text-[32px] sm:text-[42px] text-center">
         {CONTENT.HOW_IT_WORKS_TITLE}

@@ -1,4 +1,5 @@
 import { CONTENT } from "@/constants/content";
+import { MENU } from "@/constants/menu";
 import { FAQItem } from "./Item";
 
 const FAQS = [
@@ -11,7 +12,7 @@ const FAQS = [
 ];
 
 const Faq: React.FC = () => (
-  <section className="w-full py-10">
+  <section className="w-full py-10" id={MENU.FAQ.ID}>
     <div className="relative container w-full flex flex-col gap-[20px]">
       <h2 className="font-bold text-[32px] sm:text-[42px] text-center">
         {CONTENT.FAQ_TITLE}

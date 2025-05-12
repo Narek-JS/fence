@@ -1,4 +1,5 @@
 import { CONTENT } from "@/constants/content";
+import { MENU } from "@/constants/menu";
 import Image from "next/image";
 
 const FANCE_INFO = [
@@ -20,7 +21,7 @@ const FANCE_INFO = [
 ];
 
 const FenceInfo: React.FC = () => (
-  <section className="w-full py-10">
+  <section className="w-full py-10" id={MENU.SERVICES.ID}>
     <div className="relative container mx-auto flex flex-col gap-[20px]">
       <h2 className="font-bold text-[32px] sm:text-[42px] text-center">
         {CONTENT.FENCE_INFO_TITLE}
