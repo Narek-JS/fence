@@ -16,7 +16,7 @@ const FencesAnimation: React.FC = () => {
   return configs.map(({ animationDelay, left, color }, idx) => (
     <Image
       className="hidden sm:inline absolute bottom-[-40px] animate-float-fence pointer-events-none text-white"
-      src={`/images/fence-${color}.png`}
+      src={`/images/fence-${color}.webp`}
       style={{ left, animationDelay }}
       alt="Floating fence"
       height={40}

@@ -68,17 +68,17 @@ const CONTENT = {
   // Fance Risks.
   FENCE_RISK_IMAGE_ALT: "Security Risk",
 
-  FANCE_RISK_1_IMAGE: "fance-risk-1.jpeg",
+  FANCE_RISK_1_IMAGE: "fance-risk-1.webp",
   FANCE_RISK_1_TITLE: "Privacy Loss",
   FANCE_RISK_1_DESCRIPTION:
     "Without a fence, your outdoor space is fully visible to neighbors and passersby — reducing comfort and privacy for your family.",
 
-  FANCE_RISK_2_IMAGE: "fance-risk-2.jpeg",
+  FANCE_RISK_2_IMAGE: "fance-risk-2.webp",
   FANCE_RISK_2_TITLE: "Pets & Children at Risk",
   FANCE_RISK_2_DESCRIPTION:
     "Without a proper fence, kids and pets can easily wander off, creating safety hazards and neighborhood concerns.",
 
-  FANCE_RISK_3_IMAGE: "fance-risk-3.png",
+  FANCE_RISK_3_IMAGE: "fance-risk-3.webp",
   FANCE_RISK_3_TITLE: "Security Risks",
   FANCE_RISK_3_DESCRIPTION:
     "Open properties are more vulnerable to trespassers, theft, or animals entering your yard — especially at night.",

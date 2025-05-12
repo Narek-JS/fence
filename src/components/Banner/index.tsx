@@ -10,7 +10,7 @@ const Banner: React.FC = () => (
   <div className="relative w-full h-screen overflow-clip">
     <Image
       className="object-cover absolute inset-0 -z-10"
-      src="/images/banner.png"
+      src="/images/banner.webp"
       alt="Banner"
       priority
       fill

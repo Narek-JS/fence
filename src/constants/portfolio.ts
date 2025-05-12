@@ -2,7 +2,7 @@ const PORTFOLIO = [
   {
     ID: 0,
     TITLE: "Vinyl Fence Installation",
-    IMAGE: "work-0.jpg",
+    IMAGE: "work-0.webp",
     SHORT_DESCRIPTION:
       "A durable white vinyl fence designed for privacy and low maintenance.",
     DESCRIPTION:
@@ -11,7 +11,7 @@ const PORTFOLIO = [
   {
     ID: 1,
     TITLE: "Wooden Fence Project",
-    IMAGE: "work-1.jpg",
+    IMAGE: "work-1.webp",
     SHORT_DESCRIPTION:
       "A rustic wood fence for a warm, natural look around your home.",
     DESCRIPTION:
@@ -20,7 +20,7 @@ const PORTFOLIO = [
   {
     ID: 2,
     TITLE: "Fence Summary Showcase",
-    IMAGE: "work-2.jpg",
+    IMAGE: "work-2.webp",
     SHORT_DESCRIPTION:
       "Various types of fences installed on different properties.",
     DESCRIPTION:
@@ -29,7 +29,7 @@ const PORTFOLIO = [
   {
     ID: 3,
     TITLE: "Modern Vinyl Build",
-    IMAGE: "work-3.jpg",
+    IMAGE: "work-3.webp",
     SHORT_DESCRIPTION:
       "Modern vinyl fence that complements a contemporary home.",
     DESCRIPTION:
@@ -38,7 +38,7 @@ const PORTFOLIO = [
   {
     ID: 4,
     TITLE: "Premium Backyard Fence",
-    IMAGE: "work-4.jpeg",
+    IMAGE: "work-4.webp",
     SHORT_DESCRIPTION:
       "Premium backyard wood fence providing privacy and beauty.",
     DESCRIPTION:
@@ -47,7 +47,7 @@ const PORTFOLIO = [
   {
     ID: 5,
     TITLE: "Clean White Fence Finish",
-    IMAGE: "work-5.png",
+    IMAGE: "work-5.webp",
     SHORT_DESCRIPTION: "Sleek white vinyl fence surrounding a home garden.",
     DESCRIPTION:
       "Encircling a beautifully maintained garden, this white vinyl fence delivers both functionality and finesse. Its bright finish adds contrast and cleanliness to the landscape while ensuring a durable and weather-resistant barrier for gardens or yards.",
@@ -55,7 +55,7 @@ const PORTFOLIO = [
   {
     ID: 6,
     TITLE: "Classic Fence Style",
-    IMAGE: "work-6.png",
+    IMAGE: "work-6.webp",
     SHORT_DESCRIPTION:
       "Traditional fence design with sturdy materials and clean finish.",
     DESCRIPTION:
@@ -64,7 +64,7 @@ const PORTFOLIO = [
   {
     ID: 7,
     TITLE: "Next-Gen Vinyl Fence",
-    IMAGE: "work-7.png",
+    IMAGE: "work-7.webp",
     SHORT_DESCRIPTION: "Modern, durable fence design with next-gen materials.",
     DESCRIPTION:
       "Built with advanced vinyl materials, this fence represents the future of modern home enclosures. Offering increased strength, weather resistance, and a sleek design profile, it’s ideal for tech-forward homes and busy families who prioritize both aesthetics and ease of care.",
@@ -72,7 +72,7 @@ const PORTFOLIO = [
   {
     ID: 8,
     TITLE: "Stylish Privacy Fence",
-    IMAGE: "work-8.jpeg",
+    IMAGE: "work-8.webp",
     SHORT_DESCRIPTION: "Elegant privacy fencing with natural wood aesthetics.",
     DESCRIPTION:
       "Balancing elegance and security, this stylish privacy fence uses natural wood tones to provide a sophisticated boundary around the home. Perfect for urban and suburban settings alike, it enhances both property value and peace of mind.",
@@ -80,7 +80,7 @@ const PORTFOLIO = [
   {
     ID: 9,
     TITLE: "Engineered Fence Concept",
-    IMAGE: "work-9.png",
+    IMAGE: "work-9.webp",
     SHORT_DESCRIPTION:
       "A showcase of engineered fencing used in various installations.",
     DESCRIPTION:

@@ -5,17 +5,17 @@ const FANCE_INFO = [
   {
     DESCRIPTION: CONTENT.FENCE_INFO_1_SUB_DESCRIPTION,
     TITLE: CONTENT.FENCE_INFO_1_SUB_TITLE,
-    IMAGE: "/images/fence-info-1.png",
+    IMAGE: "/images/fence-info-1.webp",
   },
   {
     DESCRIPTION: CONTENT.FENCE_INFO_2_SUB_DESCRIPTION,
     TITLE: CONTENT.FENCE_INFO_2_SUB_TITLE,
-    IMAGE: "/images/fence-info-2.jpg",
+    IMAGE: "/images/fence-info-2.webp",
   },
   {
     DESCRIPTION: CONTENT.FENCE_INFO_3_SUB_DESCRIPTION,
     TITLE: CONTENT.FENCE_INFO_3_SUB_TITLE,
-    IMAGE: "/images/fence-info-3.jpg",
+    IMAGE: "/images/fence-info-3.webp",
   },
 ];
 

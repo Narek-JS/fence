@@ -10,7 +10,7 @@ const Footer: React.FC = () => (
   <footer className="footer relative w-full pt-10 pb-4">
     <Image
       className="object-cover absolute inset-0 -z-10"
-      src="/images/banner.png"
+      src="/images/banner.webp"
       alt="Banner"
       priority
       fill

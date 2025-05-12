@@ -9,7 +9,7 @@ const SiteHeader: React.FC = () => (
     <Link href={MENU.HOME.LINK}>
       <Image
         className="rounded object-none h-[60px] sm:h-[65px] min-w-[100px] sm:min-w-[120px]"
-        src="/images/logo.png"
+        src="/images/logo.webp"
         width={120}
         height={65}
         alt="Logo"
