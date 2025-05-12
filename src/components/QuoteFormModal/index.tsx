@@ -23,7 +23,7 @@ const QuoteFormModal: React.FC = () => {
   };
 
   return (
-    <div className="w-full flex flex-col items-center gap-4">
+    <div className="w-full flex flex-col items-center gap-2.5 sm:gap-4 -mt-5 sm:mt-0">
       <h2 className="font-bold text-[32px] text-[#000] [.footer_&]:text-[#FFFFFF]">
         {CONTENT.QUOTE_FORM_TITLE}
       </h2>
