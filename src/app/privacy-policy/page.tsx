@@ -10,14 +10,6 @@ const PrivacyPolicy: React.FC = () => (
       </h2>
 
       <LegalContent content={PRIVACY_POLICY} />
-
-      <div className="flex flex-col gap-4 mt-6">
-        <h2 className="text-xl font-bold">Contact Details</h2>
-        <p className="text-black text-sm leading-[21px]">
-          Please contact us if you have any questions or concerns. Our contact
-          details are as follows:
-        </p>
-      </div>
     </div>
   </main>
 );
